@@ -1,0 +1,56 @@
+body {
+    font-family: 'helvetica';
+    color: #474747;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.text-container {
+    margin-top: 30px;
+    position: relative;
+    left: 33%;
+    width: 600px;
+}
+
+.list-container {
+    position: relative;
+    left: 35%;
+    width: 600px;
+}
+
+.cooking-container {
+    width: 300px;
+    left: 37%;
+    margin-top: 30px;
+    transform: translate(20%);
+    position: relative;
+}
+
+.wallpaper {
+    max-width: 100%;
+    width: 1000px;
+    height: 500px;
+    object-fit: cover;
+    
+}
+
+hr { display: block;  
+    margin-before: 0.5em; 
+    margin-after: 0.5em; 
+    width: 600px;
+    overflow: hidden; 
+    border-style: inset; 
+    border-width: 1px;
+}
